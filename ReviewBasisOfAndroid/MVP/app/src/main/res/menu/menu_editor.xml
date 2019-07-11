@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/it_newFile"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="New"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/it_openFile"
+        android:icon="@drawable/ic_folder_open_black_24dp"
+        android:title="Open"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/it_saveFile"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="Save"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

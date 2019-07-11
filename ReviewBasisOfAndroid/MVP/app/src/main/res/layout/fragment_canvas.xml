@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CanvasFragment"
+    android:id="@+id/rlCanvasScreen"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvPitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canvas fragment" />
+
+    <TextView
+        android:layout_below="@id/tvPitch"
+        android:id="@+id/tvRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canvas fragment" />
+
+    <TextView
+        android:layout_below="@id/tvRoll"
+        android:id="@+id/tvYaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canvas fragment" />
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:id="@+id/tvBottomDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Pitch Roll Yaw"
+            android:textSize="@dimen/dimen_file_name_size" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

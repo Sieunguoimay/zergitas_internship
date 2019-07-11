@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="@dimen/_10sdp"
+                                    app:cardElevation="@dimen/_0sdp"
+                                    android:id="@+id/item_song"
+                                    app:cardBackgroundColor="#20ffffff"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    android:layout_marginBottom="@dimen/_1sdp"
+>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_margin="@dimen/_10sdp"
+    >
+
+
+        <ImageView
+                android:id="@+id/img_thumb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_song"
+                android:layout_gravity="center_vertical"
+        />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_gravity="center_vertical"
+                      android:layout_marginLeft="@dimen/_10sdp"
+
+        >
+
+        <TextView
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name"
+                android:text="Name song"
+                android:textSize="12dp"
+                android:maxLines="1"
+        />
+
+        <TextView
+                android:layout_marginBottom="5dp"
+                android:textSize="12dp"
+                android:text="duration"
+                android:textColor="@color/color_white"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_singer"
+        />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+

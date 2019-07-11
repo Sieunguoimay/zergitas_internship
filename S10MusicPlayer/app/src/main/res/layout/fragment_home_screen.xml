@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".screens.HomeScreenActivity.OptionsScreenFragment.HomeScreenFragment"
+        android:background="@color/colorAbsoluteTransparency"
+
+>
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/private_topBoard"
+            android:layout_marginTop="@dimen/_10sdp"
+    >
+
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_screen_item_height"
+                app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/cv_allSongs"
+                app:cardElevation="@dimen/_0sdp"
+        >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+            >
+
+                <ImageView
+                        android:layout_width="@dimen/home_screen_icon_size"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_library_music_24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:clickable="false"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="All Songs"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/text_size_2"
+                        android:textColor="@color/colorWhite"
+                        android:clickable="false"
+                />
+                <TextView
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:gravity="center"
+                        android:textColor="@color/textColorGray"
+                        android:clickable="false"
+                />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/slim_line"
+                android:background="@color/textColorGray"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+        />
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_screen_item_height"
+                app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/cv_folders"
+                app:cardElevation="@dimen/_0sdp"
+        >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+            >
+
+                <ImageView
+                        android:layout_width="@dimen/home_screen_icon_size"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_folder_24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Favourite"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/text_size_2"
+                        android:textColor="@color/colorWhite"
+                />
+                <TextView
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:gravity="center"
+                        android:textColor="@color/textColorGray"
+                />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/slim_line"
+                android:background="@color/textColorGray"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+        />
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_screen_item_height"
+                app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/cv_recentlyPlayed"
+                app:cardElevation="@dimen/_0sdp"
+        >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+            >
+
+                <ImageView
+                        android:layout_width="@dimen/home_screen_icon_size"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_restore_24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Recently Played"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/text_size_2"
+                        android:textColor="@color/colorWhite"
+                />
+                <TextView
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:gravity="center"
+                        android:textColor="@color/textColorGray"
+                />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/slim_line"
+                android:background="@color/textColorGray"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+        />
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_screen_item_height"
+                app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/cv_recentlyAdded"
+                app:cardElevation="@dimen/_0sdp"
+        >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+            >
+
+                <ImageView
+                        android:layout_width="@dimen/home_screen_icon_size"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_add_box_24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Recently Added"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/text_size_2"
+                        android:textColor="@color/colorWhite"
+                />
+                <TextView
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:gravity="center"
+                        android:textColor="@color/textColorGray"
+                />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_screen_item_height"
+            app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+            android:id="@+id/cv_playlist"
+            app:cardElevation="@dimen/_0sdp"
+            app:layout_constraintTop_toBottomOf="@+id/private_topBoard"
+            android:layout_marginTop="@dimen/_10sdp"
+
+    >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Playlist"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/text_size_3"
+                    android:textColor="@color/colorWhite"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textColorGray"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/_10sdp"
+            />
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cv_addPlaylist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+
+                    app:cardElevation="@dimen/_0sdp"
+                    app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+            >
+
+                <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_add_black_24dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:clickable="false"
+                />
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cv_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardElevation="@dimen/_0sdp"
+                    app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+            >
+
+                <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_more_vert_black_24dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:clickable="false"
+                />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/cv_playlist"
+            android:id="@+id/rv_playlist"
+    />
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
