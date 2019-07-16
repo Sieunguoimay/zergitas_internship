@@ -3,6 +3,21 @@
 	|	      Zergitas Internsship 		|
 	|______		   Log File		 _______|
 	       \________________________________/
+
+<15/07/2019> Mon (Week 6)
+	+ What I am going to do today:
+
+	after 5 weeks of intership. my product of S10 Music Player is about to finish. This week, I will fix some remaining bugs. adjust some unreasonable buttons. and then take the screenshots of the entire app. for every details. and write some comments on what seem to be confusing so that the designer team can understand and design it for a better looking. 
+
+	Tomorrow, the app will be handed on to the tester for further bug testing/finding.
+
+<11/07/2019> Thu
+	+ What I'm gonna do today:
+		+ fix the bugs: on restart the main activity while the service is still running pressing the play button always leads to playing of new song not the current song at the current moment. that means the song always pass the condition of playing new song even though it should be resumed only. Let's take a look at the condition that makes the song play new.
+
+<10/09/2019> Wed
+	+ Duong's Birthday. :))))
+
 <09/07/2019> Tue
 	+ What I am gonna do today:
 		current playing song; Queue moving still has problem with position of the song in the service's queue; add the delete on drop down for queue song rows; for skin theme, create 2 theme mode: dark and light; Text moving on the player screen title; Adjust layout for the Album and Artist Song Display screen; scroll the queue to current position of playing song; Equalizer and Volumn control using earphone.
