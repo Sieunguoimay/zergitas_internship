@@ -4,6 +4,10 @@
 	|______		   Log File		 _______|
 	       \________________________________/
 
+<26/07/2019> Fri
+	+ One more bug remains. but still I cannot figure it out what behind the scene. Today I'll finish it. And go on for the next and last project. The Floating Back Button.
+
+
 <15/07/2019> Mon (Week 6)
 	+ What I am going to do today:
 
